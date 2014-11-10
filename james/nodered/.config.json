@@ -1,0 +1,308 @@
+{
+ "nodes": {
+  "8e202c24bab96b40d9b216ee70fb911cab5fced7": {
+   "name": "72-sentiment.js",
+   "types": [
+    "sentiment"
+   ],
+   "enabled": true
+  },
+  "d2954b60de379d0ec692a1db10a92c0346794561": {
+   "name": "20-inject.js",
+   "types": [
+    "inject"
+   ],
+   "enabled": true
+  },
+  "a7d5533af7d2f8eab528704a6a8f4c6188f9b9ad": {
+   "name": "58-debug.js",
+   "types": [
+    "debug"
+   ],
+   "enabled": true
+  },
+  "cd1dac407ed30e567077b9906708962c1892cc26": {
+   "name": "75-exec.js",
+   "types": [
+    "exec"
+   ],
+   "enabled": true
+  },
+  "e786de85dafe6622bd346292fd8b38363e8d9b60": {
+   "name": "80-function.js",
+   "types": [
+    "function"
+   ],
+   "enabled": true
+  },
+  "bd844660645aff3a8e72ce20b2dae86c436432fe": {
+   "name": "80-template.js",
+   "types": [
+    "template"
+   ],
+   "enabled": true
+  },
+  "02c25fb863293a6a8b9376fa6a4b77cdf7e4713b": {
+   "name": "89-delay.js",
+   "types": [
+    "delay"
+   ],
+   "enabled": true
+  },
+  "5bef8f951cc573cb256d338b66c2504b9a0f9f31": {
+   "name": "89-trigger.js",
+   "types": [
+    "trigger"
+   ],
+   "enabled": true
+  },
+  "5477289319d6e7adfe2fa7d46617cfafa751bfee": {
+   "name": "90-comment.js",
+   "types": [
+    "comment"
+   ],
+   "enabled": true
+  },
+  "3c7f79ddb9056c76cad1c0e75fd624ae590b189d": {
+   "name": "98-unknown.js",
+   "types": [
+    "unknown"
+   ],
+   "enabled": true
+  },
+  "0526addde168a5bbcc9f7f9a85cd835fcbd728a8": {
+   "name": "61-imap.js",
+   "types": [
+    "imap"
+   ],
+   "enabled": true
+  },
+  "d016af42de3dfcf1ced4742f05c1a63267b7580e": {
+   "name": "73-parsexml.js",
+   "types": [
+    "xml2js"
+   ],
+   "enabled": true
+  },
+  "512f9600c397b3fb42a12385f41faae765e99323": {
+   "name": "74-js2xml.js",
+   "types": [
+    "json2xml"
+   ],
+   "enabled": true
+  },
+  "95cefa532c65cb3b0878f79e107399d6042ca638": {
+   "name": "90-httpget.js",
+   "types": [
+    "httpget"
+   ],
+   "enabled": true
+  },
+  "c13c90d7383d3d9371b1237c4d78174660b3c62d": {
+   "name": "35-arduino.js",
+   "types": [
+    "arduino in",
+    "arduino out",
+    "arduino-board"
+   ],
+   "enabled": true
+  },
+  "3e6fdf96d42321bc838f95b5c2b93ae054b55dee": {
+   "name": "36-rpi-gpio.js",
+   "types": [
+    "rpi-gpio in",
+    "rpi-gpio out"
+   ],
+   "enabled": true
+  },
+  "e07b193b085448f3f52eda954047b5cce650a60f": {
+   "name": "10-mqtt.js",
+   "types": [
+    "mqtt in",
+    "mqtt out",
+    "mqtt-broker"
+   ],
+   "enabled": true
+  },
+  "b60653353f4a7fa92b1fd90193a52096bce3a329": {
+   "name": "21-httpin.js",
+   "types": [
+    "http in",
+    "http response",
+    "http request"
+   ],
+   "enabled": true
+  },
+  "7d97ee650f09245d0661b5a5092bc0a88fb82442": {
+   "name": "22-websocket.js",
+   "types": [
+    "websocket in",
+    "websocket out",
+    "websocket-listener"
+   ],
+   "enabled": true
+  },
+  "f42bf90b6aba241880e4d5346798830c6e6eff08": {
+   "name": "23-watch.js",
+   "types": [
+    "watch"
+   ],
+   "enabled": true
+  },
+  "2b34ea031eefbf668125534b1a814439bdc8be7b": {
+   "name": "25-serial.js",
+   "types": [
+    "serial in",
+    "serial out",
+    "serial-port"
+   ],
+   "enabled": true
+  },
+  "d43039d4f986dce6a6be6c019098c9fe7abe38a7": {
+   "name": "31-tcpin.js",
+   "types": [
+    "tcp in",
+    "tcp out",
+    "tcp request"
+   ],
+   "enabled": true
+  },
+  "474071f97c2733fffed525d519635212ef34d88d": {
+   "name": "32-udp.js",
+   "types": [
+    "udp in",
+    "udp out"
+   ],
+   "enabled": true
+  },
+  "fc9f3a5be86f58fa7b0f14166d55789479ce8ba8": {
+   "name": "10-switch.js",
+   "types": [
+    "switch"
+   ],
+   "enabled": true
+  },
+  "633507c84771093d84659102b433a86904bacf65": {
+   "name": "15-change.js",
+   "types": [
+    "change"
+   ],
+   "enabled": true
+  },
+  "814e760ad5cf5ae49798e145f742525c2c722ad5": {
+   "name": "16-range.js",
+   "types": [
+    "range"
+   ],
+   "enabled": true
+  },
+  "bf1b01044a76662ea151e6c3bcec3dd5ff41bdb2": {
+   "name": "70-CSV.js",
+   "types": [
+    "csv"
+   ],
+   "enabled": true
+  },
+  "2f0f9dab8ed03707e905662db162da9893d4aed8": {
+   "name": "70-HTML.js",
+   "types": [
+    "html"
+   ],
+   "enabled": true
+  },
+  "b8176595353e34d3d07b96fbf7a2558f0db7c4b7": {
+   "name": "70-JSON.js",
+   "types": [
+    "json"
+   ],
+   "enabled": true
+  },
+  "0b0c01ff2b58761067dda05028dc273d45c48f07": {
+   "name": "70-XML.js",
+   "types": [
+    "xml"
+   ],
+   "enabled": true
+  },
+  "31f970f5893b426b2e98adc0ff5e6b5a364ba2d6": {
+   "name": "27-twitter.js",
+   "types": [
+    "twitter-credentials",
+    "twitter in",
+    "twitter out"
+   ],
+   "enabled": true
+  },
+  "a3f53ebd04adf23de3e082bbcfe503e3c01054d4": {
+   "name": "32-feedparse.js",
+   "types": [
+    "feedparse"
+   ],
+   "enabled": true
+  },
+  "cb6f8db5ebd25d98ae6ede3ed41c5ddf9cd4ff36": {
+   "name": "61-email.js",
+   "types": [
+    "e-mail",
+    "e-mail in"
+   ],
+   "enabled": true
+  },
+  "33a5c13e879c9ccb6b94ceb06ee26c3da46e7233": {
+   "name": "91-irc.js",
+   "types": [
+    "irc in",
+    "irc out",
+    "irc-server"
+   ],
+   "enabled": true
+  },
+  "fa0fa5cbb5f8c0dc57e8eec9c935e45a24e705c6": {
+   "name": "28-tail.js",
+   "types": [
+    "tail"
+   ],
+   "enabled": true
+  },
+  "f11b1d2f5e3f9ac618677a177ad0d40fd148ffc0": {
+   "name": "50-file.js",
+   "types": [
+    "file",
+    "file in"
+   ],
+   "enabled": true
+  },
+  "db2f508f161aa6c656cfc7756b10e346c07b5a4d": {
+   "name": "65-redisout.js",
+   "types": [
+    "redis out"
+   ],
+   "enabled": true
+  },
+  "9a9c190d5fd0b1d3c69f7d40001b31e19301d916": {
+   "name": "66-mongodb.js",
+   "types": [
+    "mongodb",
+    "mongodb out",
+    "mongodb in"
+   ],
+   "enabled": true
+  },
+  "524c156e2a509b27862ef247762defbee11f1463": {
+   "name": "node-red-contrib-coffeescript:coffeescript",
+   "types": [
+    "coffee"
+   ],
+   "enabled": true,
+   "module": "node-red-contrib-coffeescript"
+  },
+  "ef3e5d55a3ddf9ba57f11fc575cc3708f4288b95": {
+   "name": "node-red-contrib-async:async",
+   "types": [
+    "async"
+   ],
+   "enabled": true,
+   "module": "node-red-contrib-async"
+  }
+ }
+}
