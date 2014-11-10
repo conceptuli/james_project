@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/james/api/services/SayService.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/james-say/index.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/james-say/test/saytest.js" />
+        <item url="file://$PROJECT_DIR$/james/api/controllers/SayController.js" />
+        <item url="file://$PROJECT_DIR$/james/node_modules/james-say/lib/getTTS.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/james/api/services/SayService.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/james-say/index.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/james-say/test/saytest.js" />
+      <root url="file://$PROJECT_DIR$/james/api/controllers/SayController.js" />
+      <root url="file://$PROJECT_DIR$/james/node_modules/james-say/lib/getTTS.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

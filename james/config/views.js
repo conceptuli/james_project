@@ -31,5 +31,7 @@ module.exports.views = {
   ****************************************************************************/
 
   engine: 'handlebars',
-  
+  layout: 'layouts/layout',
+  partials: 'partials'
+
 };

@@ -21,32 +21,27 @@ module.exports.http = {
   *                                                                           *
   ****************************************************************************/
 
-  // middleware: {
+  middleware: {
+    order: [
+      'startRequestTimer',
+      'cookieParser',
+      'session',
+      'myRequestLogger',
+      'bodyParser',
+      'handleBodyParserError',
+      //   'compress',
+      'methodOverride',
+      //   'poweredBy',
+      '$custom',
+      'nodeRed',
+      'router',
+      'www',
+      'favicon',
+      '404',
+      '500'
 
-  /***************************************************************************
-  *                                                                          *
-  * The order in which middleware should be run for HTTP request. (the Sails *
-  * router is invoked by the "router" middleware below.)                     *
-  *                                                                          *
-  ***************************************************************************/
-
-    // order: [
-    //   'startRequestTimer',
-    //   'cookieParser',
-    //   'session',
-    //   'myRequestLogger',
-    //   'bodyParser',
-    //   'handleBodyParserError',
-    //   'compress',
-    //   'methodOverride',
-    //   'poweredBy',
-    //   '$custom',
-    //   'router',
-    //   'www',
-    //   'favicon',
-    //   '404',
-    //   '500'
-    // ],
+      ]
+  },
 
   /****************************************************************************
   *                                                                           *
@@ -54,12 +49,10 @@ module.exports.http = {
   *                                                                           *
   ****************************************************************************/
 
-    // myRequestLogger: function (req, res, next) {
-    //     console.log("Requested :: ", req.method, req.url);
-    //     return next();
-    // }
-
-
+  myRequestLogger: function (req, res, next) {
+       console.log("Requested :: ", req.method, req.url);
+       return next();
+  },
   /***************************************************************************
   *                                                                          *
   * The body parser that will handle incoming multipart HTTP requests. By    *
@@ -67,11 +60,11 @@ module.exports.http = {
   * [skipper](http://github.com/balderdashy/skipper). See                    *
   * http://www.senchalabs.org/connect/multipart.html for other options.      *
   *                                                                          *
-  ***************************************************************************/
+  *************************************************************************/
 
-    // bodyParser: require('skipper')
+  bodyParser: require('skipper')
 
-  // },
+
 
   /***************************************************************************
   *                                                                          *
@@ -83,5 +76,5 @@ module.exports.http = {
   *                                                                          *
   ***************************************************************************/
 
-  // cache: 31557600000
+    //cache: 31557600000
 };

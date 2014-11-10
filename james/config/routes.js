@@ -36,6 +36,11 @@ module.exports.routes = {
     view: 'homepage'
   }
 
+  /*'/nodered/': 'sails.config.http.middleware.nodeRed'*/
+
+
+
+
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
